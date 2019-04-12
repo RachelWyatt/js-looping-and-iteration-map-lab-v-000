@@ -10,3 +10,9 @@ function nameToAttributes (drivers) {
     return Object.assign({}, {firstName: name_array[0]}, {lastName: name_array[1]});
   });
 }
+
+function attributesToPhrase (drivers) {
+  return drivers.map(function (driver {
+    `$name is from $hometown`
+  }))
+}
